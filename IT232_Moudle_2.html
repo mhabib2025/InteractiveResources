@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="CSU-Global module content page." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/normalize.min.css"
+    />
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/main.css" />
+    <script src="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/modernizr.min.js"></script>
+    <title>IT232 - Object Oriented Programming</title>
+    <style>
+      .questionsquiz {
+        font-size: 1.5em;
+      }
+      .answers {
+        margin-left: 15px;
+      }
+      .answers input {
+        margin-right: 10px;
+      }
+      .formquiz {
+        background-color: #eee;
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px 20px;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .form-control label {
+        display: block;
+        margin-bottom: 10px;
+        border-radius: 10px;
+      }
+
+      .form-control input,
+      .form-control select,
+      .form-control textarea {
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: inherit;
+        padding: 10px;
+        display: block;
+        width: 95%;
+      }
+
+      /* Styling form-control Radio
+        button and Checkbox */
+      .form-control input[type="radio"],
+      .form-control input[type="checkbox"] {
+        display: inline-block;
+        width: auto;
+      }
+      .header_content {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+    <!-- [if lt IE 7]>
+      <p class="chromeframe icon-attention">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>    <![endif]-->
+    <div id="wrap" class="grid--full wrap">
+      <header id="header" class="grid__item one-whole">
+        <hgroup class="container">
+          <div class="header_content">
+            <div>
+              <h1>IT232 – Object Oriented Programming</h1>
+              <h2>Week 2 : Introduction to Computer Science and Programming</h2>
+            </div>
+            <img
+              src="https://seu.edu.sa/media/6634/logo-2.png"
+              style="height: 100px"
+            />
+          </div>
+        </hgroup>
+
+        <!-- <i class="badge"></i> -->
+      </header>
+      <!--
+   -->
+      <nav id="nav" class="grid__item one-whole menus">
+        <div class="container">
+          <h2 class="course-id pull-right">IT232</h2>
+          <a
+            id="toc-sh"
+            class="toc-sh icon-menu"
+            href="#"
+            title="Table of Contents"
+            >Table of Contents</a
+          >
+          <a id="tools-sh" class="tools-sh icon-cog" href="#" title="Tools"
+            >Tools</a
+          >
+          <div id="toc" class="toc">
+            <ol></ol>
+          </div>
+          <div id="tools" class="tools">
+            <ul>
+              <li>
+                <a id="hl" class="hl hl-off icon-pencil" title="Highlight"></a
+                >Highlight<i></i>
+              </li>
+              <li>
+                <a
+                  id="hl-reset"
+                  class="hl-reset icon-cancel-circled"
+                  title="Reset"
+                ></a
+                >Reset
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a class="lng icon-flag" data-lang="en" title="English"
+                  >English<i></i
+                ></a>
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a class="inc-font icon-plus-circled" title="Increase Font"
+                  >Increase Font</a
+                >
+              </li>
+              <li>
+                <a class="dec-font icon-minus-circled" title="Decrease Font"
+                  >Decrease Font</a
+                >
+              </li>
+              <li>
+                <a class="res-font icon-cancel-circled" title="Reset Font"
+                  >Reset Font</a
+                >
+              </li>
+              <li>
+                <hr />
+              </li>
+              <li>
+                <a class="print-page icon-print" title="Print Page"
+                  >Print Page</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="content" class="grid__item one-whole content">
+        <!--		PAGE 1 START			-->
+        <section class="page container cf first">
+          <h2 class="page-title icon-book-open">Content Introduction</h2>
+          <p><strong>Learning Outcomes</strong></p>
+          <ol>
+            <li>Illustrate Low-Level vs High-Level Programming Languages.</li>
+            <li>Recognize the difference between Compiler and Interpreter.</li>
+          </ol>
+          <h3>Readings</h3>
+          <p><strong>Required</strong></p>
+          <ul>
+            <li>Chapter 1 - (<em>Java: How to program: Late Objects</em>)</li>
+          </ul>
+          <p><strong>Recommended</strong></p>
+          <ul>
+            <li>
+              Chapters 1 —<em>Java The Complete Reference, Eleventh Edition</em>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.javatpoint.com/compiler-vs-interpreter"
+                rel="noopener"
+                >Difference between Compiler and Interpreter</a
+              >.
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://netbeans.apache.org//kb/index.html"
+                rel="noopener"
+                >NetBeans Tutorials</a
+              >.
+            </li>
+          </ul>
+          <footer class="one-whole cf">
+            <a class="btn pull-left" data-move="backward" title="Backward"
+              ><i class="icon-left-bold"></i>Backward</a
+            >
+            <a class="btn pull-right" data-move="forward" title="Forward"
+              >Forward<i class="icon-right-bold"></i
+            ></a>
+          </footer>
+        </section>
+        <!-- Page 1 End ---->
+        <!--Page 2 Start -->
+        <section class="page container cf">
+          <h2 class="page-title icon-book-open">
+            The Top 5 Programming Languages in 2021 to get a job
+          </h2>
+          <figure class="fig" style="text-align: center">
+            <img
+              class="lightbox imgMedium"
+              src="@X@EmbeddedFile.requestUrlStub@X@bbcswebdav/courses/DS-490-MASTER/Interactive_Lectures/Media/Screen-Shot-2021-02-19-at-9.47.36-AM.png"
+              alt=""
+            />
+            <p class="center">Click to Enlarge</p>
+            <p class="center">
+              Reference:
+              https://www.codingdojo.com/blog/top-7-programming-languages
+            </p>
+          </figure>
+          <p>
+            <em
+              >To begin, watch this video to learn about The Top 5 Programming
+              Languages in 2021
+            </em>
+          </p>
+          <!-- Video -->
+          <div class="video-embed">
+            <h6 class="icon-video">
+              The Top 5 Programming Languages in 2021 to get a job
+            </h6>
+            <p class="source">https://www.youtube.com/watch?v=mxKNH2gmdUc</p>
+            <div class="fluid-width-video-wrapper" style="padding-top: 56.25%">
+              <iframe
+                src="https://www.youtube.com/embed/mxKNH2gmdUc"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen="allowfullscreen"
+                height="315"
+                frameborder="0"
+                width="560"
+              ></iframe>
+            </div>
+            <p>
+              <strong>Description: </strong>This video will overview the most
+              important programming languages in 2021.
+            </p>
+          </div>
+          <!-- End Video -->
+          <footer class="one-whole cf">
+            <a class="btn pull-left" data-move="backward" title="Backward"
+              ><i class="icon-left-bold"></i>Backward</a
+            >
+            <a class="btn pull-right" data-move="forward" title="Forward"
+              >Forward<i class="icon-right-bold"></i
+            ></a>
+          </footer>
+        </section>
+        <!-- Page 2 End ---->
+        <!--Page 3 Start -->
+        <section class="page container cf">
+          <h2 class="page-title icon-book-open">
+            Low-Level vs High-Level Programming Languages
+          </h2>
+          <p><strong>High-level language</strong></p>
+          <ul>
+            <li>
+              It can be easily interpreted as well as compiled in comparison to
+              low-level language.
+            </li>
+            <li>It can be considered as a programmer-friendly language.</li>
+            <li>It is easy to understand.</li>
+            <li>It is easy to debug.</li>
+            <li>It is simple in terms of maintenance.</li>
+            <li>
+              It requires a compiler/interpreter to be translated into machine
+              code.
+            </li>
+            <li>It can be run on different platforms.</li>
+            <li>It can be ported from one location to another.</li>
+            <li>
+              It is less memory efficient, i.e it consumes more memory in
+              comparison to low-level languages.
+            </li>
+            <li>
+              Examples of high level languages include C, C++, Java, Python.
+            </li>
+            <li>It is used widely in today's times.</li>
+          </ul>
+          <p><strong>Low-level language</strong></p>
+          <ul>
+            <li>It is also known as machine level language.</li>
+            <li>It can be understood easily by the machine.</li>
+            <li>It is considered as a machine-friendly language.</li>
+            <li>It is difficult to understand.</li>
+            <li>It is difficult to debug.</li>
+            <li>Its maintenance is also complex.</li>
+            <li>It is not portable.</li>
+            <li>
+              It depends on the machine; hence it can't be run on different
+              platforms.
+            </li>
+            <li>It requires an assembler that would translate instructions.</li>
+            <li>It is not used widely in today's times.</li>
+          </ul>
+          <p>
+            <em
+              >https://www.tutorialspoint.com/difference-between-high-level-language-and-low-level-language</em
+            >
+          </p>
+          <!-- Video -->
+          <div class="video-embed">
+            <h6 class="icon-video">
+              Low-Level vs High-Level Programming Languages
+            </h6>
+            <p class="source">https://www.youtube.com/watch?v=bUWCD45qniA</p>
+            <div class="fluid-width-video-wrapper" style="padding-top: 56.25%">
+              <iframe
+                src="https://www.youtube.com/embed/bUWCD45qniA"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen="allowfullscreen"
+                height="315"
+                frameborder="0"
+                width="560"
+              ></iframe>
+            </div>
+            <p>
+              <strong>Description:</strong> This video discusses Low-Level vs
+              High-Level Programming Languages.
+            </p>
+          </div>
+          <!-- End Video -->
+          <footer class="one-whole cf">
+            <a class="btn pull-left" data-move="backward" title="Backward"
+              ><i class="icon-left-bold"></i>Backward</a
+            >
+            <a class="btn pull-right" data-move="forward" title="Forward"
+              >Forward<i class="icon-right-bold"></i
+            ></a>
+          </footer>
+        </section>
+        <!-- Page 3 End ---->
+        <!--Page 4 Start -->
+        <section class="page container cf">
+          <h2 class="page-title icon-book-open">
+            Difference between Interpreter and Compiler
+          </h2>
+          <p><strong>Interpreter Vs Compiler</strong></p>
+          <table>
+            <tbody>
+              <tr>
+                <th>Interpreter</th>
+                <th>Compiler</th>
+              </tr>
+              <tr>
+                <td>Translates program one statement at a time.</td>
+                <td>
+                  Scans the entire program and translates it as a whole into
+                  machine code.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Interpreters usually take less amount of time to analyze the
+                  source code. However, the overall execution time is
+                  comparatively slower than compilers.
+                </td>
+                <td>
+                  Compilers usually take a large amount of time to analyze the
+                  source code. However, the overall execution time is
+                  comparatively faster than interpreters.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  No Object Code is generated, hence are memory efficient.
+                </td>
+                <td>
+                  Generates Object Code which further requires linking, hence
+                  requires more memory.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Programming languages like JavaScript, Python, Ruby use
+                  interpreters.
+                </td>
+                <td>Programming languages like C, C++, Java use compilers.</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            <em
+              >https://www.programiz.com/article/difference-compiler-interpreter</em
+            >
+          </p>
+          <!-- Video -->
+          <div class="video-embed">
+            <h6 class="icon-video">
+              Difference between Interpreter and Compiler
+            </h6>
+            <p class="source">https://www.youtube.com/watch?v=e4ax90XmUBc</p>
+            <div class="fluid-width-video-wrapper" style="padding-top: 56.25%">
+              <iframe
+                src="https://www.youtube.com/embed/e4ax90XmUBc"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen="allowfullscreen"
+                height="315"
+                frameborder="0"
+                width="560"
+              ></iframe>
+            </div>
+            <p>
+              <strong>Description:</strong> This video discusses Interpreters
+              and Compilers.
+            </p>
+          </div>
+          <!-- End Video -->
+          <footer class="one-whole cf">
+            <a class="btn pull-left" data-move="backward" title="Backward"
+              ><i class="icon-left-bold"></i>Backward</a
+            >
+            <a class="btn pull-right" data-move="forward" title="Forward"
+              >Forward<i class="icon-right-bold"></i
+            ></a>
+          </footer>
+        </section>
+        <!-- Page 4 End ---->
+        <!--Page 5 Start -->
+        <section class="page container cf">
+          <h2 class="page-title icon-book-open">Week self-review exercises</h2>
+          <p><strong>Task 1: Download and Install Java IDE </strong></p>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://netbeans.apache.org/download/nb120/nb120.html"
+                rel="noopener"
+                >Netbeans </a
+              >.
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.bluej.org/versions.html"
+                rel="noopener"
+                >Bluej</a
+              >.
+            </li>
+          </ul>
+          <br />
+          <br />
+          <p><strong>Task 2: Try the tutorial in this links </strong></p>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://netbeans.apache.org//kb/docs/intro-screencasts.html"
+                rel="noopener"
+                >Guided Video Tours of NetBeans IDE </a
+              >.
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.bluej.org/tutorial/tutorial-201.pdf"
+                rel="noopener"
+                >The BlueJ Tutorial</a
+              >.
+            </li>
+          </ul>
+          <!-- Video -->
+          <div class="video-embed">
+            <h6 class="icon-video">Setting up BlueJ, Writing HelloWorld</h6>
+            <p class="source">https://www.youtube.com/watch?v=UMcijMC4Dwk</p>
+            <div class="fluid-width-video-wrapper" style="padding-top: 56.25%">
+              <iframe
+                src="https://www.youtube.com/embed/UMcijMC4Dwk"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen="allowfullscreen"
+                height="315"
+                frameborder="0"
+                width="560"
+              ></iframe>
+            </div>
+            <p>
+              <strong>Description:</strong> Setting up BlueJ, Writing HelloWorld
+            </p>
+          </div>
+          <!-- End Video -->
+          <footer class="one-whole cf">
+            <a class="btn pull-left" data-move="backward" title="Backward"
+              ><i class="icon-left-bold"></i>Backward</a
+            >
+            <a class="btn pull-right" data-move="forward" title="Forward"
+              >Forward<i class="icon-right-bold"></i
+            ></a>
+          </footer>
+        </section>
+        <!-- Page 5 End ---->
+        <!--Last Page Start -->
+        <section class="page container cf">
+          <h2 class="page-title icon-book-open">Test Your Knowledge</h2>
+
+          <form class="formquiz" id="formquiz">
+            <div class="form-control">
+              <!-- New Question -->
+              <label class="questionsquiz">
+                Q1) Which of the following is not a Java features?
+              </label>
+              <div class="answers">
+                <label for="q1-a1">
+                  <input id="q1-a1" value="A" name="q1" type="radio" />Dynamic
+                </label>
+                <label for="q1-a2">
+                  <input
+                    id="q1-a2"
+                    value="B"
+                    name="q1"
+                    type="radio"
+                  />Architecture Neutral
+                </label>
+                <label for="q1-a3">
+                  <input id="q1-a3" value="C" name="q1" type="radio" />Use of
+                  pointers
+                </label>
+                <label for="q1-a4">
+                  <input
+                    id="q1-a4"
+                    value="D"
+                    name="q1"
+                    type="radio"
+                  />Object-oriented
+                </label>
+              </div>
+              <!-- New Question -->
+              <label class="questionsquiz">
+                Q2) Which component is used to compile, debug and execute the
+                java programs?
+              </label>
+              <div class="answers">
+                <label for="q2-a1">
+                  <input id="q2-a1" value="A" name="q2" type="radio" />JRE
+                </label>
+                <label for="q2-a2">
+                  <input id="q2-a2" value="B" name="q2" type="radio" />JVM
+                </label>
+                <label for="q2-a3">
+                  <input id="q2-a3" value="C" name="q2" type="radio" />JIT
+                </label>
+                <label for="q2-a4">
+                  <input id="q2-a4" value="D" name="q2" type="radio" />JDK
+                </label>
+              </div>
+              <!-- New Question -->
+              <label class="questionsquiz">
+                Q3) What is the extension of java code files?
+              </label>
+              <div class="answers">
+                <label for="q3-a1">
+                  <input id="q3-a1" value="A" name="q3" type="radio" />.js
+                </label>
+                <label for="q3-a2">
+                  <input id="q3-a2" value="B" name="q3" type="radio" />.txt
+                </label>
+                <label for="q3-a3">
+                  <input id="q3-a3" value="C" name="q3" type="radio" />.class
+                </label>
+                <label for="q3-a4">
+                  <input id="q3-a4" value="D" name="q3" type="radio" />.java
+                </label>
+              </div>
+              <p id="noCorrect" style="color: blue"></p>
+            </div>
+            <button type="submit" value="submit">Check Your Answer</button>
+            <button id="resetBtn">Reset</button>
+          </form>
+          <script type="text/javascript">
+            const correctAnswers = ["D", "C", "D"];
+            document.querySelector("form").addEventListener("submit", (e) => {
+              e.preventDefault();
+              const data = Object.fromEntries(new FormData(e.target).entries());
+              let allLabels = document.getElementsByTagName("label");
+              for (let label of allLabels) {
+                label.style.backgroundColor = "#eee";
+              }
+              let i = 0;
+              let noCorrect = 0;
+              for (property in data) {
+                let inputsByChosenName = document.getElementsByName(property);
+                let chosenInput = {};
+                inputsByChosenName.forEach((input) => {
+                  if (input.value === data[property]) {
+                    chosenInput = input;
+                  }
+                });
+                let labels = document.getElementsByTagName("label");
+                let chosenLabel = {};
+                for (let label of labels) {
+                  if (label.htmlFor === chosenInput.id) {
+                    chosenLabel = label;
+                  }
+                }
+                if (chosenInput.value === correctAnswers[i]) {
+                  chosenLabel.style.backgroundColor = "#9EFD38"; //Green
+                  noCorrect++;
+                } else {
+                  chosenLabel.style.backgroundColor = "#f88379"; //Red
+                }
+                i++;
+              }
+              if (i > 0) {
+                let noCorrectElement = document.getElementById("noCorrect");
+                noCorrectElement.innerHTML = `You scored ${noCorrect} out of ${correctAnswers.length}`;
+              }
+            });
+            document
+              .getElementById("resetBtn")
+              .addEventListener("click", () => {
+                document.getElementById("formquiz").reset();
+                let noCorrectElement = document.getElementById("noCorrect");
+                noCorrectElement.innerHTML = "";
+                let allLabels = document.getElementsByTagName("label");
+                for (let label of allLabels) {
+                  label.style.backgroundColor = "#eee";
+                }
+              });
+          </script>
+          <footer class="one-whole cf">
+            <a class="btn pull-left" data-move="backward" title="Backward"
+              ><i class="icon-left-bold"></i>Backward</a
+            >
+          </footer>
+        </section>
+        <!-- Last Page End ---->
+        <!-- 	  PAGES END 		-->
+      </div>
+      <div class="push"></div>
+    </div>
+    <p>
+      <script src="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/jquery.min.js"></script>
+      <script src="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/jquery.custom.min.js"></script>
+      <script src="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/bootstrap.min.js"></script>
+      <script src="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/jquery.fitvids.min.js"></script>
+      <script src="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/jquery.lightbox_me.js"></script>
+      <script src="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/jquery.textHighlighter.pack.min.js"></script>
+      <script async="" src="https://raw.githubusercontent.com/mhabib2025/InteractiveResources/main/main.js"></script>
+    </p>
+  </body>
+</html>
